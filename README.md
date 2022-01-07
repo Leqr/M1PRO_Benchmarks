@@ -15,7 +15,7 @@ Numpy throws ```RuntimeWarning: overflow encountered in matmul A_numpy = A_numpy
 
 PyTorch  | Tensorflow | Numpy
 -------- | -----------|--------
-0.527362s| 0.015058s  | 60.154097s
+0.497199s| 0.04535s  | 60.797036s
 
 #### Singular Value Decomposition
 ```
