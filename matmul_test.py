@@ -3,18 +3,21 @@ import torch
 import numpy as np
 import time
 import tabulate
-from torch._C import dtype
 
-shape = [2000,2000]
+shape = [5000,5000]
+#float32
 A_torch = torch.rand(shape)
 A_numpy = A_torch.numpy()
-A_tensor = tf.convert_to_tensor(A_numpy)
+A_tensor = tf.Variable(tf.convert_to_tensor(A_numpy))
 
 print(A_torch.shape)
 print(A_tensor.shape)
 print(A_numpy.shape)
+print(A_torch.type())
+print(A_tensor.dtype)
+print(type(A_numpy[0,0]))
 
-n = 10
+n = 100
 start_torch = time.perf_counter()
 for i in range(n):
     A_torch = A_torch*A_torch

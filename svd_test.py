@@ -1,5 +1,7 @@
 import time
 import numpy as np
+import tabulate 
+
 shape = (300,300)
 np.random.seed(42)
 a = np.random.uniform(size=shape)
