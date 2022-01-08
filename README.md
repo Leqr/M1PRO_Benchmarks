@@ -3,7 +3,7 @@ On Apple M1 Pro 8-core with 16 GB of RAM and 14-core GPU.
 
 ## Python
 ### Numpy vs TensorFlow vs PyTorch
-Numpy and PyTorch installed through conda-forge with ARM64 support, TensorFlow-metal with apple silicon gpu support.
+Numpy (not using Accelerate/vecLib, see https://developer.apple.com/forums/thread/695963) and PyTorch installed through conda-forge with ARM64 support, TensorFlow-metal with apple silicon gpu support.
 
 #### Matrix Mulitplication
 ```
