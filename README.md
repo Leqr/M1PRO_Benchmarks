@@ -13,7 +13,7 @@ Numpy throws ```RuntimeWarning: overflow encountered in matmul A_numpy = A_numpy
 
 32-bit floats
 
-PyTorch  | Tensorflow | Numpy
+PyTorch  | Tensorflow | Numpy conda-forge
 -------- | -----------|--------
 0.497199s| 0.04535s  | 60.797036s
 
@@ -21,8 +21,8 @@ PyTorch  | Tensorflow | Numpy
 ```
 svd_test.py
 ```
-PyTorch  | Tensorflow | Numpy
--------- | -----------|--------
-3.440609s| 1.095954s  | 4.545333s
+PyTorch  | Tensorflow | Numpy conda-forge | Numpy vecLib compiled
+-------- | -----------|------------------ | ---------------------
+3.440609s| 1.095954s  | 4.545333s         | 1.04695s
 
 
