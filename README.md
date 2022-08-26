@@ -13,9 +13,9 @@ Numpy throws ```RuntimeWarning: overflow encountered in matmul A_numpy = A_numpy
 
 32-bit floats
 
-PyTorch  | Tensorflow | Numpy
--------- | -----------|--------
-0.497199s| 0.04535s  | 60.797036s
+PyTorch  | Tensorflow | Numpy   | PyTorch Apple Silicon  |
+-------- | -----------|---------|------------------------|
+0.497199s| 0.04535s  | 60.797036s | 0.008s
 
 #### Singular Value Decomposition
 ```
